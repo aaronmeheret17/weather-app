@@ -12,7 +12,7 @@ This application retrieves weather forecasts for a given location using the Nati
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/aaronm1724/weather-app.git
+   git clone https://github.com/aaronmeheret17/weather-app.git
    cd weather-app
 
 2. Set up a virtual environment:
