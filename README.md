@@ -15,15 +15,18 @@ This application retrieves weather forecasts for a given location using the Nati
    git clone https://github.com/aaronmeheret17/weather-app.git
    cd weather-app
 
-2. Set up a virtual environment:
+2. **Set up a virtual environment**:
+   ```bash
     python3 -m venv venv
     source venv/bin/activate
     
-3. Install dependencies and run
+4. **Install dependencies and run**
+   ```bash
     pip install -r requirements.txt
     python main.py
 
-4. Testing
+5. **Testing**
+   ```bash
     python -m unittest test_weather.py
 
 
