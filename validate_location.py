@@ -1,8 +1,11 @@
 import requests
 import json
+import os
 
 def validate_location(location):
-    api_key = '6c88c2dbd0b841afb7c98b3c5f080e71'
+    api_key = os.getenv('OPENCAGE_API_KEY')
+    if not api_key:
+        raise ValueError("API key not found. Make sure the OPENCAGE_API_KEY environment variable is set.")
     url = f"https://api.opencagedata.com/geocode/v1/json?q={location}&key={api_key}"
 
     response = requests.get(url)
