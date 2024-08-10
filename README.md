@@ -37,15 +37,18 @@ You should store this key in an environment variable called 'OPENCAGE_API_KEY' t
         export OPENCAGE_API_KEY="your_api_key_here"
 
 
-2. Set up a virtual environment:
+2. **Set up a virtual environment**:
+   ```bash
     python3 -m venv venv
     source venv/bin/activate
     
-3. Install dependencies and run
+4. **Install dependencies and run**
+   ```bash
     pip install -r requirements.txt
     python main.py
 
-4. Testing
+5. **Testing**
+   ```bash
     python -m unittest test_weather.py
 
 
