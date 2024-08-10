@@ -84,6 +84,5 @@ class WeatherTestCase(unittest.TestCase):
     # 10. Test with a valid location but where the API returns incomplete data (e.g., missing 'city' or 'state' fields)
     # Expected result: Should handle the incomplete data gracefully and either return the available coordinates or raise an error if critical data is missing.
 
-
 if __name__ == "__main__":
     unittest.main()
